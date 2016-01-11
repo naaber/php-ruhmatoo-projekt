@@ -15,7 +15,8 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container-fluid">
 	<div class="navbar-header">
-		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 			<span class="sr-only">Toggle navigation</span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
@@ -44,6 +45,7 @@
 			<li><a href=""><?=$_SESSION['logged_in_user_email'];?></a></li>
 			<li><a href="?logout=1">[logi välja]</a></li>
 		</ul>
+	</div>
 	</div>
 	</div>
 	</nav><br><br><br>
